@@ -1,4 +1,4 @@
-/*苦しんで覚えるC言語1３*/
+/*苦しんで覚えるC言語14*/
 #include<stdio.h>
 #include<memory.h>
 int main(void){
@@ -11,7 +11,8 @@ int main(void){
 
     printf("名前を入力してください:");
     scanf("%s",mei);
-
+    
+    printf("名前を連結させます。\n");
     strcat(sei,mei);
     printf("%s",sei);
     return 0;
